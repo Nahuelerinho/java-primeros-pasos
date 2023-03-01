@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a81ac59e-6e2a-4cd8-84e2-c41921248335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bytebank-heredado/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytebank-heredado/src/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytebank-heredado/src/CuentaAhorros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytebank-heredado/src/CuentaCorriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytebank-heredado/src/TestCuenta.java" afterDir="false" />
+    <list default="true" id="a81ac59e-6e2a-4cd8-84e2-c41921248335" name="Changes" comment="Adding all until oracle third curse">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/CuentaAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/CuentaAhorros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/CuentaCorriente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/TestControlBonificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/TestControlBonificacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/TestFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/TestFuncionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +54,10 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.TestCuenta">
+  <component name="RunManager" selected="Application.TestControlBonificacion">
     <configuration name="PruebaConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PruebaConstructor" />
       <module name="proyecto-bytebank" />
@@ -68,15 +65,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestControlBonificacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestControlBonificacion" />
-      <module name="bytebank-heredado" />
+    <configuration name="PruebaEncapsulamiento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PruebaEncapsulamiento" />
+      <module name="proyecto-bytebank" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCuenta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestCuenta" />
+    <configuration name="TestControlBonificacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestControlBonificacion" />
       <module name="bytebank-heredado" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestCuenta" />
         <item itemvalue="Application.TestControlBonificacion" />
         <item itemvalue="Application.TestGerente" />
         <item itemvalue="Application.TestFuncionario" />
         <item itemvalue="Application.PruebaConstructor" />
+        <item itemvalue="Application.PruebaEncapsulamiento" />
       </list>
     </recent_temporary>
   </component>
@@ -122,39 +119,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="user">
-                    <value>
-                      <list>
-                        <option value="NahuelLapt" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="User">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="NahuelLapt" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="NahuelNote" />
-                </option>
-              </RecentGroup>
-            </list>
+            <State />
           </value>
         </entry>
       </map>
