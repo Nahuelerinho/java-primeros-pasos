@@ -1,6 +1,7 @@
-public class Gerente extends Funcionario implements Autenticable {
+public class Administrador extends Funcionario implements Autenticable{
+
     public double getBonificacion() {
-        return 2000;
+        return 200;
     }
 
     @Override

@@ -1,4 +1,4 @@
-public class Cliente {
+public class Cliente implements Autenticable{
 
     private String nombre;
     private String documento;
@@ -28,4 +28,13 @@ public class Cliente {
         this.telefono = telefono;
     }
 
+    @Override
+    public void setClave(String clave) {
+
+    }
+
+    @Override
+    public boolean iniciarSecion(String clave) {
+        return false;
+    }
 }
