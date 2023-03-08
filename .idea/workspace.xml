@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a81ac59e-6e2a-4cd8-84e2-c41921248335" name="Changes" comment="Adding interface concepts">
-      <change afterPath="$PROJECT_DIR$/bytebank-heredado/src/AutenticacionUtil.java" afterDir="false" />
+    <list default="true" id="a81ac59e-6e2a-4cd8-84e2-c41921248335" name="Changes" comment="Concluding final aspects of herence and interfaces">
+      <change afterPath="$PROJECT_DIR$/bytebank-heredado/src/SaldoInsuficienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytebank-heredado/src/TestCuentaExceptionSaldo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-pila-ejecucion/src/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-pila-ejecucion/src/Flujo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-pila-ejecucion/src/MiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-pila-ejecucion/src/TestCuentaExceptionChecked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/Administrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytebank-heredado/src/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank-heredado/src/CuentaCorriente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +59,10 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestSistemaInterno">
-    <configuration name="PruebaConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PruebaConstructor" />
-      <module name="proyecto-bytebank" />
+  <component name="RunManager" selected="Application.TestCuentaExceptionSaldo">
+    <configuration name="Flujo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Flujo" />
+      <module name="java-pila-ejecucion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,15 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFuncionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestFuncionario" />
+    <configuration name="TestCuenta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCuenta" />
       <module name="bytebank-heredado" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGerente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestGerente" />
+    <configuration name="TestCuentaExceptionSaldo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCuentaExceptionSaldo" />
       <module name="bytebank-heredado" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,19 +96,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PruebaConstructor" />
+      <item itemvalue="Application.TestCuentaExceptionSaldo" />
+      <item itemvalue="Application.Flujo" />
+      <item itemvalue="Application.TestCuenta" />
       <item itemvalue="Application.TestControlBonificacion" />
-      <item itemvalue="Application.TestFuncionario" />
-      <item itemvalue="Application.TestGerente" />
       <item itemvalue="Application.TestSistemaInterno" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCuentaExceptionSaldo" />
+        <item itemvalue="Application.Flujo" />
+        <item itemvalue="Application.TestCuenta" />
         <item itemvalue="Application.TestSistemaInterno" />
         <item itemvalue="Application.TestControlBonificacion" />
-        <item itemvalue="Application.TestGerente" />
-        <item itemvalue="Application.TestFuncionario" />
-        <item itemvalue="Application.PruebaConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677796056720</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Concluding final aspects of herence and interfaces">
+      <created>1677942141922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677942141922</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding abstract concepts" />
     <MESSAGE value="Adding interface concepts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding interface concepts" />
+    <MESSAGE value="Concluding final aspects of herence and interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concluding final aspects of herence and interfaces" />
   </component>
 </project>

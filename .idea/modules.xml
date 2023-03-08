@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bytebank-heredado/bytebank-heredado.iml" filepath="$PROJECT_DIR$/bytebank-heredado/bytebank-heredado.iml" />
       <module fileurl="file://$PROJECT_DIR$/conceptosbasicos/conceptosbasicos.iml" filepath="$PROJECT_DIR$/conceptosbasicos/conceptosbasicos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-pila-ejecucion/java-pila-ejecucion.iml" filepath="$PROJECT_DIR$/java-pila-ejecucion/java-pila-ejecucion.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-primeros-pasos.iml" filepath="$PROJECT_DIR$/java-primeros-pasos.iml" />
       <module fileurl="file://$PROJECT_DIR$/proyecto-bytebank/proyecto-bytebank.iml" filepath="$PROJECT_DIR$/proyecto-bytebank/proyecto-bytebank.iml" />
     </modules>
